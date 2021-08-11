@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+}
+.book-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-header{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.app-header .clean-list{
+    display: flex;
+    list-style: none;
+    align-self: center;
+    justify-content: center;
+    gap: 10px;
+}
+.books-number{
+    align-self: center;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* .book-list > *:not(:first-child) {
+    margin-left: 20px;
+} */
+
+.book-preview {
+    box-shadow: 0 0px 3px 2px #7e7d7d78;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 10px 10px 18px;
+    width: 120px;
+}
+.book-preview img {
+    width: 100px;
+}
+
+.book-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.book-filter label:not(:first-of-type) {
+    margin-left: 10px;
+}
+.book-filter input {
+    margin-left: 5px;
+}
+.book-details{
+    text-align: center;
+    padding: 30px;
+}
+.red{
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+}
+.green{
+    background-color:green;
+    text-align: center;
+    padding: 30px;
+}
+.read-more-btn{
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.go-back-btn{
+    border-radius: 10px;
+    margin: 5px;
+}
